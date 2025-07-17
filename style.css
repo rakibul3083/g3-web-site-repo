@@ -145,10 +145,14 @@ header{
     .img-section{
        grid-template-columns: repeat(1, 1fr);
     }
+     
     .left-content{
         margin-left: 20px;
     }
     .full-plan-team{
         flex-direction: column;
+    }
+    .left-content{
+        margin-bottom: 0px;
     }
 }  
