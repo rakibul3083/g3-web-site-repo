@@ -13,6 +13,10 @@
 .mg{
     margin-top: 130px;
 }
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
 /*navbar and banner design*/
 
@@ -98,7 +102,7 @@ header{
     display: flex;
     align-items: center;
     margin-top: 4rem;
-    
+     
      
 }
 .img-section{
@@ -106,10 +110,7 @@ header{
     grid-template-columns: repeat(2, 1fr);
     gap: 26px;
 }
-.img-section img{
-    
-}
-
+ 
 .left-content{
      max-width: 537px;
      margin-left: 130px;
@@ -131,7 +132,122 @@ header{
 .yollow{
     color: #FF900E;
 }   
+
+/*features love and enjoy section*/
+
+.features{
+   display: flex;
+   gap: 130px;
+   align-items: center;
+   justify-content: center;
+
+   
+   
+     
+}
+.left-features{
+     
+}
+.features-items{
+    max-width: 586px;
+    padding:30px;
+    border-radius: 8px;
+    margin-top: 25px;
+    line-height: 25px;
+    box-shadow: 0 4px 30px 0 rgba(196, 192, 192, 0.6);
+    margin-bottom: 20px;
+    max-height: 171px;
+}
+.left-features h2{
+    font-size: 2.81rem;
+    font-weight: bold;
+    color: #131313;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.left-features h3{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #131313;
+}
+.left-features p{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #727272;
+    padding: 5px;
+}
+.right-features{
+
+}
+    
  
+.right-features button{
+    background-color:#FF900E ;
+    border-radius: 8px;
+    padding: 45px 42px;
+    border: none;
+    margin-top: -100px;
+     
+}
+.experience-years{
+    font-size: 4rem;
+    font-weight: bold;
+    color: #fff;
+}
+.experience-title{
+    font-size: 1.56rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+
+/*some facts items*/
+
+.facts-container{}
+.facts-title{}
+.facts-title h2{
+    font-size: 2.81rem;
+    font-weight: bold;
+    color: #131313;
+}
+.facts-title p{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #727272;
+    margin-bottom: 5px;
+}
+
+.facts-items{
+    margin-top: 100px;
+    gap: 120px;
+    display: flex;
+}
+.facts{
+    width: 241px;
+    height: 241px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 50px 36px;
+    
+}
+.facts img{}
+.facts h3{
+    font-size: 2.81rem;
+    font-weight: 600;
+    color: #424242;
+    margin-top: 10px;
+}
+.facts p{
+    font-size: 1.21rem;
+    font-weight: 600;
+    color: #727272;
+}
 
 /*responsiv media*/
 
@@ -155,4 +271,16 @@ header{
     .left-content{
         margin-bottom: 0px;
     }
+    .features{
+        flex-direction: column;
+    }
+    .right-features img{
+        width: 100%;
+    }
 }  
+
+/*mid device responsive query*/
+
+@media screen and (min-width:576) and (max-width:997px){
+    
+}
