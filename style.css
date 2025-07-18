@@ -15,7 +15,7 @@
 }
 main{
     max-width: 1440px;
-    margin: 0 auto;
+     margin: 0 auto;
 }
 
 /*navbar and banner design*/
@@ -58,10 +58,6 @@ header{
     color: #424242;
 }
 
-.full-title-part{
-      
-} 
-
 .banner-title{
     text-align: center;
     max-width: 832px;
@@ -90,9 +86,7 @@ header{
     border: none;
     cursor: pointer;
 }
-.banner-img{
-   
-}
+ 
 .banner-img img{
      width: 100%;
      
@@ -100,10 +94,7 @@ header{
 /*features related*/
 .full-plan-team{
     display: flex;
-    align-items: center;
-    margin-top: 4rem;
-     
-     
+    margin-top: 4rem;  
 }
 .img-section{
     display: grid;
@@ -139,15 +130,10 @@ header{
    display: flex;
    gap: 130px;
    align-items: center;
-   justify-content: center;
-
-   
-   
+   justify-content: center;  
      
 }
-.left-features{
-     
-}
+ 
 .features-items{
     max-width: 586px;
     padding:30px;
@@ -178,10 +164,6 @@ header{
     color: #727272;
     padding: 5px;
 }
-.right-features{
-
-}
-    
  
 .right-features button{
     background-color:#FF900E ;
@@ -205,9 +187,6 @@ header{
 
 
 /*some facts items*/
-
-.facts-container{}
-.facts-title{}
 .facts-title h2{
     font-size: 2.81rem;
     font-weight: bold;
@@ -236,7 +215,7 @@ header{
     padding: 50px 36px;
     
 }
-.facts img{}
+ 
 .facts h3{
     font-size: 2.81rem;
     font-weight: 600;
@@ -252,16 +231,15 @@ header{
 /* our sponsors partners*/
  
 .sponsor-title{
-    text-align: center;
-     
+    text-align: center;    
 }
  
- .sponsor-items{
+.sponsor-items{
     display: flex;
     gap: 150px;
     margin-top: 50px;
  }
- .sponsor-title h2{
+.sponsor-title h2{
     font-size: 2.81rem;
     font-weight: 600;
     color: #424242;
@@ -292,10 +270,7 @@ header{
 .footer-title p{
     font-size: 1.21rem;
     font-weight: 600;
-    color: #727272;
-    
-    
-    
+    color: #727272;   
 }
 
 /*responsiv media*/
@@ -344,9 +319,8 @@ header{
         align-items: center;
         
     }
-    .sponsor-title p{
-        
-    }
+    
+    
 }  
 
 /*mid device responsive query*/
